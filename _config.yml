@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.markdown
+  - company.markdown
   - services.markdown
   - projects.markdown
   - contact.markdown

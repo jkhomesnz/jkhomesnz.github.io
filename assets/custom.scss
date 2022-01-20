@@ -4,8 +4,8 @@
 body {
   background: #2b2b2b;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
-
 
 a,a:visited {
   color: #fda328;
@@ -24,6 +24,8 @@ a:active {
   display: flex;
   align-items: center;
   border: 0;
+  background: #2b2b2b;
+  z-index: 1;
 }
 .site-header .wrapper {
   width: 100%;
@@ -44,17 +46,47 @@ a:active {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .site-nav .page-link:visited  {
   color: #fff;
+  text-decoration: none;
 }
 .site-nav .page-link:hover  {
   color: #fff;
-  text-decoration: underline;
+  border-bottom: 2px solid;
+  text-decoration: none;
 }
 .site-nav .page-link:active {
   color: #ddd;
+  text-decoration: none;
 }
+
+.site-nav a[data-active-item="active"] {
+  border-bottom: 2px solid;
+  pointer-events: none;
+}
+
+
+/* Mobile menu */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+  .site-nav .menu-icon svg {
+    fill: #fff;
+  }
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding: 20px 20px 20px 40px;
+    // border: 1px solid #666;
+  }
+}
+
+
+
 
 
 .post-title {
@@ -63,9 +95,14 @@ a:active {
 
 
 .site-footer {
-  border-color: #3e3e3e;
+  border: 0;
+  background: #000;
 }
 
+.site-footer .footer-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 // .jk-partners__list {
 //   list-style: none;
@@ -79,3 +116,104 @@ a:active {
 // .jk-partners__list li {
 //   margin: 0;
 // }
+
+
+
+/* Layout */
+.wrapper {
+  max-width: -webkit-calc(960px - (30px * 2));
+  max-width:         calc(960px - (30px * 2));
+}
+.wrapper_fullwidth {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+/* Contact page */
+.contact-us .page-content {
+ padding: 0;
+}
+
+.contact-us .page-content::after {
+  content:"";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("bg__contact2.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+
+.contact__wrapper {
+  margin: 150px auto;
+}
+
+.contact__row {
+  margin: 0 auto 60px;
+  max-width: 720px;
+}
+.contact__row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.post-content h2.contact__subtitle {
+  color: rgb(255, 164, 0);
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+}
+
+.contact__textbox {
+  display: block;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 640px) {
+  .post-content h2.contact__subtitle {
+    float: left;
+    width: 50%;
+  }
+  .contact__textbox {
+    float: left;
+    width: 50%;
+  }
+}
+
+
+/* Page: Company */
+.section__about-us {
+  background: rgb(255, 164, 0);
+  color: #000;
+  padding: 150px 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: 300;
+}
+.section__about-us h2.subtitle {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+  .section__about-us h2.subtitle {
+    float: left;
+    width: 30%;
+  }
+  .section__about-us .textbox {
+    float: left;
+    width: 70%;
+  }
+}
