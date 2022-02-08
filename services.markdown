@@ -33,12 +33,6 @@ permalink: services
 - Residential Development
 
 
-
-
-
-
-
-
 <br>
 
 
@@ -84,4 +78,3 @@ permalink: services
 
 
 <br>
-

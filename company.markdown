@@ -55,7 +55,7 @@ permalink:
         <li>Renovation &amp; Remodeling</li>
         <li>Recladding</li>
         <li>Deck &amp; Fence</li>
-        <li>Residental Development</li>
+        <li>Residential Development</li>
       </ul>
     </div>
   </div>
