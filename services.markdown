@@ -6,12 +6,36 @@ permalink: services
 
 ## OUR SERVICES
 
-- New homes
+- New builds (new home & commercial building services)
 - Frame work
+- Exterior cladding
+- Extensions
 - Renovation & Remodeling
 - Recladding
 - Deck & Fence
-- Residental Development
+- Residential Development
+
+<br>
+
+### 1. Residential building services
+- Building a new home
+- Renovating a home
+
+<br>
+
+### 2. Commercial building services
+- New builds
+- Renovation & Remodeling
+
+<br>
+
+### 3. Property Development & large scale projects
+- Residential Development
+
+
+
+
+
 
 
 
