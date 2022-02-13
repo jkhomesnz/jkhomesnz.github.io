@@ -255,8 +255,11 @@ a:active {
   display: block;
 }
 
-.project__desc .lead {
-  font-size: 25px;
+
+@media screen and (min-width: 1024px) {
+  .project__desc .lead {
+    font-size: 25px;
+  }
 }
 
 .project__tag,
