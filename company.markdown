@@ -5,7 +5,7 @@ permalink:
 ---
 
 <section class="section__hero-banner">
-  <video class="hero-media" autoplay muted loop id="projectHeroVideo" poster="/assets/media/project/manly/cover-image-01.jpg">
+  <video class="hero-media" autoplay loop muted playsinline id="projectHeroVideo" poster="/assets/media/project/manly/cover-image-01.jpg">
     <source src="/assets/media/project/manly/JK-manly-video-banner.mp4" type="video/mp4">
   </video>
 </section>
