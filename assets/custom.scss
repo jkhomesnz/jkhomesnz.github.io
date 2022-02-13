@@ -121,8 +121,9 @@ a:active {
 
 /* Layout */
 .wrapper {
-  max-width: -webkit-calc(960px - (30px * 2));
-  max-width:         calc(960px - (30px * 2));
+  // max-width: -webkit-calc(960px - (30px * 2));
+  // max-width:         calc(960px - (30px * 2));
+  max-width: 960px;
 }
 .wrapper_fullwidth {
   width: 100%;
@@ -216,4 +217,134 @@ a:active {
     float: left;
     width: 70%;
   }
+}
+
+
+/* Project layout */
+.project__wrapper {
+  margin-bottom: 60px;
+}
+
+.project__hero {
+  margin-bottom: 30px;
+}
+
+.project__hero-media,
+.hero-media {
+  width: 100%;
+  height: auto;
+}
+
+.project__heading {
+  text-transform: uppercase;
+}
+
+.project__title  {
+  color: rgb(255, 164, 0);
+  font-size: 28px;
+  font-weight: 700;
+  display: block;
+}
+
+.project__desc .lead {
+  font-size: 25px;
+}
+
+.project__tag,
+.project__tag:hover,
+.project__tag:active,
+.project__tag:visited  {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  display: block;
+}
+
+
+.project__title small {
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  display: block;
+  letter-spacing: 4px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .project__heading {
+    float: left;
+    width:40%;
+  }
+  .project__desc {
+    float: left;
+    width: 60%;
+  }
+  .project__hero {
+    margin-bottom: 50px;
+  }
+  .project__title  {
+    font-size: 32px;
+  }
+
+}
+
+
+
+/* Hero video */
+.section__hero {
+  width: 100%;
+  height: 80vh;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section__hero .hero-media {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.home__hero-banner {
+  width: 100%;
+  height: calc(100vh - 110px);
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.home__hero-banner .hero-media {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.j-k-homes .page-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+.section__hero-banner {
+  height: 600px !important;
+  overflow: hidden;
+  margin-top: -30px;
 }
