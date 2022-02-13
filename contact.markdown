@@ -12,10 +12,10 @@ permalink: /contact/
 
   <div class="contact__textbox">
     EMAIL: <a href="mailto:projects@jkhomesnz.com">projects@jkhomesnz.com</a><br>
-    ADDRESS:
+    <!-- ADDRESS:
     <address>165 NORMAN LESSER DRIVE<br>
     SAINT JOHNS AUCKLAND 1072 NEW ZEALAND
-    </address>
+    </address> -->
 
   </div>
 </div>
