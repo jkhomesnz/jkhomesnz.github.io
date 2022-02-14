@@ -14,8 +14,8 @@ permalink:
   <div class="wrapper clearfix">
     <h2 class="subtitle">J&K HOMES</h2>
     <div class="textbox">
-      <p>When building a single or multi units buildings, it could be seen as another house in the area for many passers-by, but we know and understand this could be a life time savings, an investment with everything on the line.</p>
-      <p>Therefore, we deeply understand how imperative it is to choose right design, material and builder for your project, and this is J&K’s core value.</p>
+      <p>When building a single or multi-unit complex, it could be seen as another house in the area for many passers-by, but we know and understand this could be a lifetime savings, an investment with everything on the line.</p>
+      <p>Therefore, we deeply understand how imperative it is to choose the right design, material and builder for your project, and this is J&K’s core value.</p>
     </div>
   </div>
 </section>
@@ -26,7 +26,7 @@ permalink:
   <div class="wrapper">
     <h2 class="subtitle">PEOPLE FOCUSED</h2>
     <div class="textbox">
-      <p>Whether it is daily site report to our customers or monthly staff development meetings, communication is our essential principlein all that we do.</p>
+      <p>Whether it is daily site reports to our customers or monthly staff development meetings, communication is our essential principle in all that we do.</p>
     </div>
   </div>
 </section>
@@ -40,6 +40,17 @@ permalink:
     <h2 class="subtitle">TECHNOLOGY DRIVEN</h2>
     <div class="textbox">
       <p>Taking advantage of innovative technology to enhance our process, way of communication and even in the area of staff upskilling.</p>
+    </div>
+  </div>
+</section>
+
+<br>
+
+<section class="section__technology">
+  <div class="wrapper">
+    <h2 class="subtitle">PROCESS ORIENTED</h2>
+    <div class="textbox">
+      <p>[ TBC ]</p>
     </div>
   </div>
 </section>

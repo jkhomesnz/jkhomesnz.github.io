@@ -8,7 +8,7 @@ permalink: /contact/
 
 
 <div class="contact__row">
-  <h2 class="contact__subtitle">GENERAL ENQUIES</h2>
+  <h2 class="contact__subtitle">GENERAL ENQUIRIES</h2>
 
   <div class="contact__textbox">
     EMAIL: <a href="mailto:projects@jkhomesnz.com">projects@jkhomesnz.com</a><br>
@@ -32,3 +32,4 @@ permalink: /contact/
 </div>
 
 <section>
+
