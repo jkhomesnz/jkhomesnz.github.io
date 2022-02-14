@@ -1,6 +1,22 @@
 ---
 ---
 
+// 16-inch MacBook Pro
+
+// Looks like 2056 x 1329
+// Default: Looks like 1728 x 1117
+// Looks like 1496 x 967
+// Looks like 1312 x 848
+// Looks like 1168 x 755
+
+// 14-inch MacBook Pro
+// Looks like 1800 x 1169
+// Default: Looks like 1512 x 982
+// Looks like 1352 x 878
+// Looks like 1147 x 745
+// Looks like 1024 x 665
+
+
 body {
   background: #2b2b2b;
   color: #fff;
@@ -29,6 +45,16 @@ a:active {
 }
 .site-header .wrapper {
   width: 100%;
+}
+@media screen and (min-width: 1600px) {
+  .site-header {
+    height: 140px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .site-header {
+    height: 150px;
+  }
 }
 
 
@@ -128,8 +154,26 @@ a:active {
 .wrapper {
   // max-width: -webkit-calc(960px - (30px * 2));
   // max-width:         calc(960px - (30px * 2));
-  max-width: 960px;
+  max-width: 1000px;
 }
+@media screen and (min-width: 1600px) {
+  .wrapper {
+    max-width: 1250px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .wrapper {
+    max-width: 1450px;
+  }
+}
+
+// @media screen and (min-width: 1600px) {
+//   .wrapper {
+//     max-width: 1320px;
+//   }
+// }
+
+
 .wrapper_fullwidth {
   width: 100%;
   margin-right: auto;
@@ -232,6 +276,7 @@ a:active {
 
 .project__hero {
   margin-bottom: 30px;
+  margin-top: -30px;
 }
 
 .project__hero-media,
@@ -360,3 +405,16 @@ a:active {
   overflow: hidden;
   margin-top: -30px;
 }
+
+
+
+.post .post-header {
+  display: none;
+}
+
+
+
+// .page-content {
+//   padding-top: 0;
+//   padding-bottom: 0;
+// }
