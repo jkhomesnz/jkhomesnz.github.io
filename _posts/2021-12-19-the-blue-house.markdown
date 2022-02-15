@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Land Rover"
+title:  "The Blue House"
 date:   2021-12-19 09:41:36 +1300
 categories: projects
 ---
@@ -8,12 +8,12 @@ categories: projects
 <div class="project__wrapper clearfix">
 
   <div class="project__hero">
-    <img class="project__hero-media" src="/assets/media/project/jk__landrover.jpg" alt="Land Rover">
+    <img class="project__hero-media" src="/assets/media/project/jk__the-blue-house.jpg" alt="The Blue House">
   </div>
 
   <div class="project__heading">
-    <h1 class="project__title"><small>North Shore</small> Land Rover</h1>
-    <p class="project__meta"><a href="#" class="project__tag">Shopfitting</a> <span class="project__year"></span></p>
+    <h1 class="project__title">The Blue House <small>in Golfer's paradise</small></h1>
+    <p class="project__meta"><a href="#" class="project__tag">Renovation & Remodelling</a> <span class="project__year"></span></p>
   </div>
 
   <div class="project__desc">

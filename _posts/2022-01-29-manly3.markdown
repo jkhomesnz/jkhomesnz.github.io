@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Saltlife Beach Lodge 3"
+title:  "Saltlife Beach Lodge (Kor sample)"
 date:   2022-01-29 09:41:36 +1300
 categories: projects
 ---
@@ -28,6 +28,4 @@ categories: projects
   </div>
 
 </div>
-
-
 

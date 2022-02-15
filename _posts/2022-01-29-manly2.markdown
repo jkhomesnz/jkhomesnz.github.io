@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Saltlife Beach Lodge 2"
+title:  "Saltlife Beach Lodge"
 date:   2022-01-29 09:41:36 +1300
 categories: projects
 ---
@@ -8,9 +8,7 @@ categories: projects
 <div class="project__wrapper clearfix">
 
   <div class="project__hero">
-    <video class="hero-media" autoplay loop muted playsinline id="projectHeroVideo" poster="/assets/media/project/manly/cover-image-01.jpg">
-      <source src="/assets/media/project/manly/JK-manly-video-banner.mp4" type="video/mp4">
-    </video>
+    <img class="project__hero-media" src="/assets/media/project/manly/cover-image-01.jpg" alt="The Salt Life">
   </div>
 
   <div class="project__heading">
@@ -26,6 +24,3 @@ categories: projects
   </div>
 
 </div>
-
-
-
