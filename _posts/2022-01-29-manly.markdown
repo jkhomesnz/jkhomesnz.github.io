@@ -12,7 +12,7 @@ categories: projects
   </div>
 
   <div class="project__heading">
-    <h1 class="project__title"><small>Manly</small> Salt Life Lodge</h1>
+    <h1 class="project__title"><small>Manly</small>바다와 맞닿은 집 <br> Salt Life Lodge</h1>
     <p class="project__meta"><a href="#" class="project__tag">Renovation & Remodelling</a> <span class="project__year">2021</span></p>
   </div>
 
@@ -23,7 +23,11 @@ categories: projects
     <p>Quality timber floors, modern kitchen bench, natural light and generous open plan living will naturally drive you to plan many more nights at home.</p>
   </div>
 
+
 </div>
+
+
+
 
 
 

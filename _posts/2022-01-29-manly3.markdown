@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Saltlife Beach Lodge"
+date:   2022-01-29 09:41:36 +1300
+categories: projects
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <video class="hero-media" autoplay loop muted playsinline id="projectHeroVideo" poster="/assets/media/project/manly/cover-image-01.jpg">
+      <source src="/assets/media/project/manly/JK-manly-video-banner.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title"><small>Manly</small>바다와 맞닿은 집</h1>
+    <p class="project__meta"><a href="#" class="project__tag">Renovation & Remodelling</a> <span class="project__year">2021</span></p>
+  </div>
+
+  <div class="project__desc">
+    <p class="lead">땅에서 하늘로 이어지는 뉴질랜드의 아름다운 자연을 품은 공간.</p>
+    <p>드넓은 해변과 시원한 바다, 구름 가득한 하늘을 한 눈에 담을 수 있는 이 집은 자연에서 느껴지는 아늑함과 여유로운 일상을 선사합니다.</p>
+    <p>라운지에 서서 한여름에 불어오는 시원한 바닷바람을 맞으며 해방감을 느낄 수 있습니다. 바다가 한눈에 보이는 거실은 넓은 야외 테라스와 연결되어 일상생활과 휴식공간은 물론 다양한 여가생활이 자연스럽게 (seamless) 이어집니다. 가족의 행복한 삶과 지인들과의 추억을 함께 공유할 수 있는 공간입니다.</p>
+    <p>오래되어 변색된 나무와 연약한 프레임, 어두은 실내는 현대적인 감각으로 다시 태어납니다.<br>
+    푸르른 자연과 더불어, 모노톤의 절제있는 스타일로 마감된 외장 및 인테리어는 모던하고 심플한 분위기를 연출하여 자연의 색조와 대비되는 특별한 매력을 선사합니다. 실외와 실내에 명암이 높은 대비를 주어 전체적인 분위기를 깔끔하고 세련되게 표현하고 있으며, 화이트로 마감된 거실과 부엌은 창문 넘어로 보이는 풍경을 갤러리에 있는 한폭의 그림처럼 느껴지게 만듭니다.</p>
+    <p>계단이 위치한 집의 뒷공간은 고립되어 있기 때문에 주변이 어두울 수 있어서 천장과 벽에 유리를 설치하여 채광을 확보했습니다. 플로어와 계단은 어두운 톤의 목재로 건축됐는데, 이는 언급했던 바와 같이 화이트 컬러와 서로 대조되어 더욱 깔끔하고 청결한 느낌을 줍니다.</p>
+  </div>
+
+</div>
+
+
+
+
+
+
