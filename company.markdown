@@ -100,24 +100,20 @@ permalink:
 
 <br>
 
-<hr>
-
-<br>
-
 
 <section class="section__partners">
   <div class="wrapper">
-    <h2 class="subtitle">J&K Partners</h2>
+    <h2 class="jk-partners__subtitle subtitle">J&K Partners</h2>
     <div class="textbox">
       <ul class="jk-partners__list">
-        <li><a href="#" target="_blank"> ICC </a></li>
-        <li><a href="https://mmnprojects.co.nz/" target="_blank"> MMN </a></li>
-        <li><a href="https://www.jalcon.co.nz/" target="_blank"> Jalcon Homes </a></li>
-        <li><a href="https://www.mlconstruction.nz/" target="_blank"> McMillan & Lockwood </a></li>
-        <li><a href="https://www.box.co.nz/" target="_blank"> BOX </a></li>
-        <li><a href="https://asjacobs.co.nz/" target="_blank"> AS Jacobs Property Consultancy </a></li>
-        <li><a href="https://www.pennyhomes.co.nz/" target="_blank"> Penny Homes </a></li>
-        <li><a href="https://www.classicbuilders.co.nz/" target="_blank"> Classic Builders </a></li>
+        <li><a class="jk-partners__icc" href="#" target="_blank"> ICC </a></li>
+        <li><a class="jk-partners__mmn" href="https://mmnprojects.co.nz/" target="_blank"> MMN </a></li>
+        <li><a class="jk-partners__jalcon" href="https://www.jalcon.co.nz/" target="_blank"> Jalcon Homes </a></li>
+        <li><a class="jk-partners__McMillan" href="https://www.mlconstruction.nz/" target="_blank"> McMillan & Lockwood </a></li>
+        <li><a class="jk-partners__box" href="https://www.box.co.nz/" target="_blank"> BOX </a></li>
+        <li><a class="jk-partners__asjacobs" href="https://asjacobs.co.nz/" target="_blank"> AS Jacobs Property Consultancy </a></li>
+        <li><a class="jk-partners__pennyhomes" href="https://www.pennyhomes.co.nz/" target="_blank"> Penny Homes </a></li>
+        <li><a class="jk-partners__classicbuilders" href="https://www.classicbuilders.co.nz/" target="_blank"> Classic Builders </a></li>
       </ul>
     </div>
   </div>

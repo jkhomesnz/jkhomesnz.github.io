@@ -4,33 +4,51 @@ title: Services
 permalink: services
 ---
 
-## OUR SERVICES
 
-- New builds (new home & commercial building services)
-- Frame work
-- Exterior cladding
-- Extensions
-- Renovation & Remodeling
-- Recladding
-- Deck & Fence
-- Residential Development
+<section class="section-services">
 
-<br>
+  <h2 id="our-services">OUR SERVICES</h2>
 
-### 1. Residential building services
-- Building a new home
-- Renovating a home
+  <div class="services__overview">
+    <ul>
+      <li>New builds (new home &amp; commercial building services)</li>
+      <li>Frame work</li>
+      <li>Exterior cladding</li>
+      <li>Extensions</li>
+      <li>Renovation &amp; Remodeling</li>
+      <li>Recladding</li>
+      <li>Deck &amp; Fence</li>
+      <li>Residential Development</li>
+    </ul>
+  </div>
 
-<br>
-
-### 2. Commercial building services
-- New builds
-- Renovation & Remodeling
-
-<br>
-
-### 3. Property Development & large scale projects
-- Residential Development
+  <div class="services__categories clearfix">
+    <div class="services__category services__category--residential">
+      <h3 class="">Residential building services</h3>
+      <ul>
+        <li>Building a new home</li>
+        <li>Renovating a home</li>
+      </ul>
+      <a class="services__category-link" href="#">View more</a>
+    </div>
+    <div class="services__category services__category--commercial">
+      <h3 class="">Commercial building services</h3>
+      <ul>
+        <li>New builds</li>
+        <li>Renovation & Remodeling</li>
+      </ul>
+      <a class="services__category-link" href="#">View more</a>
+    </div>
+    <div class="services__category services__category--large-scale">
+      <h3 class="">Property Development & large scale projects</h3>
+      <ul>
+        <li>Residential Development</li>
+        <br>
+      </ul>
+      <a class="services__category-link" href="#">View more</a>
+    </div>
+  </div>
+</section>
 
 
 <br>
