@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Hobsonville Point: Mike Greer"
+title:  "Hobsonville Point: Jalcon"
 date:   2021-12-19 09:41:36 +1300
 categories: projects
+thumbnail: /assets/media/project/jk__sample3.jpg
 ---
 
-Hobsonville Point: Mike Greer
+Hobsonville Point: Jalcon

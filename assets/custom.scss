@@ -547,3 +547,15 @@ a:active {
     padding-right: 0;
   }
 }
+
+
+.post-list-heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 0 60px;
+  font-weight: 600;
+}
+
+.post-list > li {
+  margin-bottom: 60px;
+}

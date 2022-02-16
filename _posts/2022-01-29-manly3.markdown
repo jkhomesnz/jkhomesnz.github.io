@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Saltlife Beach Lodge (Kor sample)"
-date:   2022-01-29 09:41:36 +1300
+date:   2020-01-29 09:41:36 +1300
 categories: projects
+thumbnail: /assets/media/project/manly/cover-image-01.jpg
 ---
 
 <div class="project__wrapper clearfix">

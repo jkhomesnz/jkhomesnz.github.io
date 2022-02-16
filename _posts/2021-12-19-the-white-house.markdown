@@ -3,6 +3,7 @@ layout: post
 title:  "The White House"
 date:   2021-12-19 09:41:36 +1300
 categories: projects
+thumbnail: /assets/media/project/jk__the-white-house.jpg
 ---
 
 <div class="project__wrapper clearfix">
