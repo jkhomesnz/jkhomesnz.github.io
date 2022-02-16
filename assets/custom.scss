@@ -549,7 +549,8 @@ a:active {
 }
 
 
-.post-list-heading {
+
+.projects h1 {
   text-align: center;
   text-transform: uppercase;
   margin: 0px 0 60px;
@@ -559,3 +560,20 @@ a:active {
 .post-list > li {
   margin-bottom: 60px;
 }
+
+.rss-subscribe {
+  display: none;
+}
+
+// @media screen and (min-width: 1024px) {
+//   .post-list > li {
+//     width: 50%;
+//     float: left;
+//     padding: 15px;
+//     box-sizing: border-box;
+//   }
+//   .post-list > li:nth-child(3n+3) {
+//     width: 100%;
+//   }
+// }
+

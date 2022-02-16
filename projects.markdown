@@ -1,5 +1,7 @@
 ---
 layout: home
-list_title: Projects
+title: Projects
+list_title:
 permalink: projects
 ---
+

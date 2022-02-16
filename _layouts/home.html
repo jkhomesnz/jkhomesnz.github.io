@@ -10,7 +10,11 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
+
+    {%- if page.list_title -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    {%- endif -%}
+
     <ul class="post-list">
       {%- for post in site.posts -%}
 
@@ -19,7 +23,7 @@ layout: default
         {%- if post.thumbnail -%}
         <figure class="post-list__thumbnail">
           <img src="{{- post.thumbnail | relative_url -}}" alt="{{ post.title | escape }}" class="post-list__image">
-          {%- endif -%}
+        {%- endif -%}
         </figure>
 
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
