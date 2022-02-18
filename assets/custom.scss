@@ -133,8 +133,13 @@ a:active {
 
 .site-footer .footer-heading {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer-heading span {
+  color: #fda328;
 }
 
 @media screen and (min-width: 1024px) {
@@ -398,7 +403,7 @@ a:active {
 
 
 .section__hero-banner {
-  height: 600px !important;
+  height: 650px !important;
   overflow: hidden;
   margin-top: -30px;
 }
@@ -576,4 +581,180 @@ a:active {
 //     width: 100%;
 //   }
 // }
+
+
+
+
+
+/* ----------------------------------------------------
+HOME
+---------------------------------------------------- */
+.homepage main .wrapper {
+  max-width: 100%;
+  padding: 0;
+}
+
+.homepage .page-heading {
+  display: none;
+}
+
+.homepage .post-list-heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 25px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 80px auto 0;
+  padding: 15px;
+  box-sizing: border-box;
+  letter-spacing: 0.15em;
+}
+
+.homepage .post-list {
+  margin: 20px auto 60px;
+  max-width: 1000px !important;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.homepage .post-list li {
+  width: 100%;
+  // float: left;
+  display: flex;
+}
+
+.homepage .post-list__thumbnail {
+  max-width: 40%;
+  // float: left;
+}
+.homepage .post-list__textbox {
+  max-width: 60%;
+  // float: left;
+  box-sizing: border-box;
+  padding-left: 6%;
+  align-self: center;
+}
+.homepage .post-list__title .post-link {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .homepage .post-list__thumbnail {
+    max-width: 50%;
+  }
+  .homepage .post-list {
+    max-width: 1250px;
+  }
+  .homepage .post-list__textbox {
+    max-width: 50%;
+    padding-left: 8%;
+  }
+  .homepage .post-list__title .post-link {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .homepage .post-list__button {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 15px;
+    background-color: #fda328;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .homepage .post-list {
+    max-width: 1450px;
+  }
+}
+
+
+
+.homepage .section__hero-banner {
+  position: relative;
+}
+.homepage .section__hero-banner .textbox {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.homepage .section__hero-banner p {
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .homepage .section__hero-banner .textbox {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+.homepage .section__hero-banner::after {
+  content:"";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background:rgba(0,0,0,0.5);
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+}
+
+.homepage main {
+  position: relative;
+  overflow: hidden;
+}
+.homepage main::before {
+  content:"";
+  width: 350px;
+  height: 750px;
+  background: url("/assets/jk-logo_symbol.svg") center left no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  margin-left: 625px;
+}
+.homepage main::after {
+  content:"";
+  width: 590px;
+  height: 750px;
+  background: url("/assets/jk-logo_symbol.svg") center right no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+  margin-right: 625px;
+  background-position: right 196px;
+}
+.homepage .section__about-us {
+  background: #2b2b2b;
+  color: #fff;
+}
+
 

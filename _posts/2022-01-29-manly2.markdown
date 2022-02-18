@@ -4,6 +4,7 @@ title:  "Saltlife Beach Lodge"
 date:   2022-01-29 09:41:36 +1300
 categories: projects
 thumbnail: /assets/media/project/manly/cover-image-01.jpg
+tag: Renovation & Remodelling
 ---
 
 <div class="project__wrapper clearfix">

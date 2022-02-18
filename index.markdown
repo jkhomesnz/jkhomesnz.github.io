@@ -1,28 +1,23 @@
 ---
-layout: page-fullwidth
-title: Company
+layout: home
+title: Homepage
+list_title: Our recent projects
 permalink:
 ---
 
 <section class="section__hero-banner">
+    <div class="textbox">
+      <p>When building a single or multi-unit complex, it could be seen as another house in the area for many passers-by, but we know and understand this could be a lifetime savings, an investment with everything on the line.</p><br>
+      <p>Therefore, we deeply understand how imperative it is to choose the right design, material and builder for your project, and this is J&K’s core value.</p>
+    </div>
   <video class="hero-media" autoplay loop muted playsinline id="projectHeroVideo" poster="/assets/media/project/manly/cover-image-01.jpg">
     <source src="/assets/media/project/manly/JK-manly-video-banner.mp4" type="video/mp4">
   </video>
 </section>
 
-<section class="section__about-us">
-  <div class="wrapper clearfix">
-    <h2 class="subtitle">J&K HOMES</h2>
-    <div class="textbox">
-      <p>When building a single or multi-unit complex, it could be seen as another house in the area for many passers-by, but we know and understand this could be a lifetime savings, an investment with everything on the line.</p>
-      <p>Therefore, we deeply understand how imperative it is to choose the right design, material and builder for your project, and this is J&K’s core value.</p>
-    </div>
-  </div>
-</section>
-
 <br>
 
-<section class="section__philosophy">
+<!-- <section class="section__philosophy">
   <div class="wrapper">
     <h2 class="subtitle">PEOPLE FOCUSED</h2>
     <div class="textbox">
@@ -53,15 +48,11 @@ permalink:
       <p>[ TBC ]</p>
     </div>
   </div>
-</section>
+</section> -->
 
-<br>
 
-<hr>
 
-<br>
-
-<section class="section__services">
+<!-- <section class="section__services">
   <div class="wrapper">
     <h2 class="subtitle">Our Service & History</h2>
     <div class="textbox">
@@ -75,16 +66,11 @@ permalink:
       </ul>
     </div>
   </div>
-</section>
+</section> -->
 
 
-<br>
 
-<hr>
-
-<br>
-
-<section class="section__guarantee">
+<!-- <section class="section__guarantee">
   <div class="wrapper">
     <h2 class="subtitle">Our Guarantee</h2>
     <div class="textbox">
@@ -98,10 +84,10 @@ permalink:
   </div>
 </section>
 
-<br>
+<br> -->
 
 
-<section class="section__partners">
+<!-- <section class="section__partners">
   <div class="wrapper">
     <h2 class="jk-partners__subtitle subtitle">J&K Partners</h2>
     <div class="textbox">
@@ -117,4 +103,4 @@ permalink:
       </ul>
     </div>
   </div>
-</section>
+</section> -->
