@@ -26,6 +26,7 @@ permalink:
 
   <div class="services__categories clearfix">
     <div class="services__category services__category--residential">
+      <img src="/assets/media/project/jk__the-blue-house.jpg" class="hero-media__image">
       <h3 class="">Residential building services</h3>
       <ul>
         <li>Building a new home</li>
@@ -34,6 +35,7 @@ permalink:
       <a class="services__category-link" href="/services-home.html">View more</a>
     </div>
     <div class="services__category services__category--commercial">
+      <img src="/assets/media/project/jk__landrover.jpg" class="hero-media__image">
       <h3 class="">Commercial building services</h3>
       <ul>
         <li>New builds</li>
@@ -42,6 +44,7 @@ permalink:
       <a class="services__category-link" href="/services-retail.html">View more</a>
     </div>
     <div class="services__category services__category--large-scale">
+      <img src="/assets/media/project/jk__sample.jpg" class="hero-media__image">
       <h3 class="">Property Development & large scale projects</h3>
       <ul>
         <li>Residential Development</li>
