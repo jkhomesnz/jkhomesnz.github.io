@@ -1,26 +1,55 @@
 ---
 layout: page
-title: Services
-permalink: services
+title: Residential building services
+permalink:
 ---
 
+<section class="section__hero-banner">
+  <figure class="hero-media">
+   <img src="/assets/media/project/manly/cover-image-01.jpg" class="hero-media__image">
+  </figure>
+</section>
+
+  <br>
 
 <section class="section-services">
 
-  <h2 id="our-services">OUR SERVICES</h2>
+  <h2 id="our-services">Residential building services</h2>
+
+  <br>
+
+  <h3>New Home</h3>
+  <p>It's time to design and build your home. Do you know how your dream home would look? Visit us and we'll make them a reality.</p>
+
+
+  <br>
+
+
+  <h3>Home Improvement</h3>
+  <p>From renovating your kitchen to repairing broken floors, our services to home improvement has the expert tips and advce you need to upgrade your house.</p>
 
   <div class="services__overview">
     <ul>
-      <li>New builds (new home &amp; commercial building services)</li>
-      <li>Frame work</li>
-      <li>Exterior Cladding</li>
-      <li>Extensions</li>
       <li>Renovation &amp; Remodelling</li>
+      <li>Exterior Cladding</li>
       <li>Recladding</li>
-      <li>Deck &amp; Fence</li>
-      <li>Residential Development</li>
     </ul>
   </div>
+
+  <br>
+
+  <h3>Home Extension</h3>
+  <p>A home extension is an effective way to make the most of your living space, improving the aesthetic beauty of your house, and increasing its value.</p>
+
+  <div class="services__overview">
+    <ul>
+      <li>Home office</li>
+      <li>Extensions</li>
+      <li>Deck &amp; Fence</li>
+    </ul>
+  </div>
+
+
 
   <div class="services__categories clearfix">
     <div class="services__category services__category--residential">
@@ -50,49 +79,3 @@ permalink: services
   </div>
 </section>
 
-
-<br>
-
-
-## THE PROCESS
-
-**1. ESTIMATION**
-- Based on RC plan
-- The final price could be more or less than the estimate, but it should generally be within 10-15%
-
-<br>
-
-**2. CONTRACT**
-- Master builders contract
-- Assigned to project manager - Single point of contact
-
-<br>
-
-**3. DESIGN**
-- Concept design
-- Wish list
-- Custom design to suit your land and family lifestyle
-- Build quotation : Cost basis vs fixed price
-- Construction drawing and building consent
-
-<br>
-
-**4. BUILD**
-- Regular update reports
-- Site visit
-- Site work
-- Foundation and frame work
-- Minor variations
-- Exteriors and interiors
-- Finishing touch
-
-<br>
-
-**5. D-DAY**
-- Final council inspection
-- Cleaning
-- Quality control
-- Final handover
-
-
-<br>
