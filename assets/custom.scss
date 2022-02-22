@@ -541,15 +541,23 @@ a:active {
   box-sizing: border-box;
 }
 
+.services__category img {
+  margin-bottom: 16px;
+}
 
 @media screen and (min-width: 1024px) {
+  .services__categories {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .services__category {
-    width: 33.33%;
-    float: left;
-    padding-right: 30px;
+    // width: 33.33%;
+    // float: left;
+    // margin-right: 30px;
   }
   .services__category:last-child {
-    padding-right: 0;
+    // margin-right: 0;
   }
 }
 
