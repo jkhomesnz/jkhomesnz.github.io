@@ -15,7 +15,7 @@ tag: Renovation & Remodelling
 
   <div class="project__heading">
     <h1 class="project__title"><small>Manly</small> Salt Life Lodge</h1>
-    <p class="project__meta"><a href="#" class="project__tag">Renovation & Remodelling</a> <span class="project__year">2021</span></p>
+    <p class="project__meta"><a href="#" class="project__tag">Renovation & Remodelling</a> <span class="project__year"></span></p>
   </div>
 
   <div class="project__desc">

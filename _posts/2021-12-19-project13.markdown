@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Flat Bush"
+date:   2022-01-11 09:41:36 +1300
+categories: projects
+thumbnail: /assets/media/project/flatbush/flatbush-01.jpg
+tag: New build & Development
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <img class="project__hero-media" src="/assets/media/project/flatbush/flatbush-01.jpg" alt="Flat Bush">
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title">Flat Bush</h1>
+    <p class="project__meta"><a href="#" class="project__tag">New build & Development</a> <span class="project__year">2021</span></p>
+  </div>
+
+  <div class="project__desc">
+    <p class="lead"></p>
+  </div>
+
+</div>
+
+
+<br>
+
+<div class="media-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i0JwggMjGcY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br>
+
+<img class="project__hero-media" src="/assets/media/project/flatbush/flatbush-02.jpg" alt="Flat Bush">
+
+<br>
+
+<img class="project__hero-media" src="/assets/media/project/flatbush/flatbush-03.jpg" alt="Flat Bush">
