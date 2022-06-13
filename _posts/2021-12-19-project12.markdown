@@ -33,3 +33,13 @@ tag: Renovation & Remodelling
 <div class="media-wrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jfd84sPyZGE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<br>
+
+<img class="project__hero-media" src="/assets/media/project/manly/cover-image-02.jpg" alt="The Salt Life">
+
+<br>
+
+<img class="project__hero-media" src="/assets/media/project/manly/cover-image-03.jpg" alt="The Salt Life">
+
+<br>
