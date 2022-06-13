@@ -27,8 +27,11 @@ tag: Renovation & Remodelling
 <br>
 
 <div class="media-wrapper">
-  <video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
-    <source src="/assets/media/project/blue-house/The Blue House slideshow.mp4" type="video/mp4">
-  </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7eAFtJC6XiU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<br>
+
+<div class="media-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7-24GgIFFaA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

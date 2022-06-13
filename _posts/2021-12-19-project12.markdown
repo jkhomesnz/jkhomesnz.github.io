@@ -30,8 +30,6 @@ tag: Renovation & Remodelling
 
 <br>
 
-<video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
-  <source src="/assets/media/project/manly/JK-manly-video-banner.mp4" type="video/mp4">
-</video>
-
-
+<div class="media-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jfd84sPyZGE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

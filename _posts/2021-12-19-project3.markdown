@@ -27,7 +27,5 @@ tag: New build & Development
 <br>
 
 <div class="media-wrapper">
-  <video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
-    <source src="/assets/media/project/grand-drive/The Grand Drive 01.mp4" type="video/mp4">
-  </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3OHfXLOKJrU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
