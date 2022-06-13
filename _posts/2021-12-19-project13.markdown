@@ -15,7 +15,7 @@ tag: New build & Development
 
   <div class="project__heading">
     <h1 class="project__title">Flat Bush</h1>
-    <p class="project__meta"><a href="#" class="project__tag">New build & Development</a> <span class="project__year">2021</span></p>
+    <p class="project__meta"><a href="#" class="project__tag">New build & Development</a> <span class="project__year">2022</span></p>
   </div>
 
   <div class="project__desc">
