@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Flat Bush"
-date:   2022-01-11 09:41:36 +1300
+date:   2020-01-10 09:41:36 +1300
 categories: projects
 thumbnail: /assets/media/project/flatbush/flatbush-01.jpg
 tag: New build & Development
@@ -15,7 +15,7 @@ tag: New build & Development
 
   <div class="project__heading">
     <h1 class="project__title">Flat Bush</h1>
-    <p class="project__meta"><a href="#" class="project__tag">New build & Development</a> <span class="project__year">2022</span></p>
+    <p class="project__meta"><a href="#" class="project__tag">New build & Development</a> <span class="project__year"></span></p>
   </div>
 
   <div class="project__desc">
