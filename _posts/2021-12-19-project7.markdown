@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Catalina Hobsonville point"
+date:   2020-1-7 00:00:00 +1300
+categories: projects
+thumbnail: /assets/media/project/jk__sample2.jpg
+tag: Framing, Deck, Fence, Cladding
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <img class="project__hero-media" src="/assets/media/project/jk__sample2.jpg" alt="Catalina Hobsonville point">
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title">Catalina Hobsonville Point</h1>
+    <p class="project__meta"><a href="#" class="project__tag">Framing, Decking, Cladding</a> <span class="project__year"></span></p>
+  </div>
+
+  <div class="project__desc">
+    <p>Framing, Decking, Cladding</p>
+  </div>
+
+</div>
+
+<br>
+
+<!-- <div class="media-wrapper">
+  <video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
+    <source src="/assets/media/project/" type="video/mp4">
+  </video>
+</div> -->

@@ -26,3 +26,12 @@ tag: Renovation & Remodelling
   </div>
 
 </div>
+
+
+<br>
+
+<video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
+  <source src="/assets/media/project/manly/JK-manly-video-banner.mp4" type="video/mp4">
+</video>
+
+

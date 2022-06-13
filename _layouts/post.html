@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -23,5 +24,9 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <footer class="post-footer">
+    {% include pagination-for-post.html %}
+  </footer><!-- /.post-footer -->
+
 </article>
+

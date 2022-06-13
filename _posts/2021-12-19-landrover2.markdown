@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Hobsonville Point: Jalcon"
-date:   2021-12-19 09:41:36 +1300
-categories: projects
-thumbnail: /assets/media/project/jk__sample2.jpg
----
-
-"Hobsonville point: Jalcon"

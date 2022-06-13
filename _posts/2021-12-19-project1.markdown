@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "The Blue House"
+date:   2020-1-1 00:00:00 +1300
+categories: projects
+thumbnail: /assets/media/project/jk__the-blue-house.jpg
+tag: Renovation & Remodelling
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <img class="project__hero-media" src="/assets/media/project/jk__the-blue-house.jpg" alt="The Blue House">
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title">The Blue House <small>in Golfer's paradise</small></h1>
+    <p class="project__meta"><a href="#" class="project__tag">Renovation & Remodelling</a> <span class="project__year"></span></p>
+  </div>
+
+  <div class="project__desc">
+    <p>Recladding, Renovation, Room Extension, Kitchen, Bathroom.</p>
+  </div>
+
+</div>
+
+<br>
+
+<div class="media-wrapper">
+  <video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
+    <source src="/assets/media/project/blue-house/The Blue House slideshow.mp4" type="video/mp4">
+  </video>
+</div>
+

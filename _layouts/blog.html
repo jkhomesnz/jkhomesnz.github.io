@@ -2,12 +2,14 @@
 layout: default
 ---
 
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
+
 
   {%- if site.posts.size > 0 -%}
 
@@ -16,7 +18,7 @@ layout: default
     {%- endif -%}
 
     <ul class="post-list">
-      {%- for post in site.posts limit:6 -%}
+      {%- for post in paginator.posts -%}
 
       <li class="post-list__item">
         <!-- Post thumbnail -->
@@ -50,7 +52,17 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <footer class="post-footer">
+      {% include pagination-for-home.html %}
+    </footer>
+
   {%- endif -%}
 
 </div>
+
+
+
+
+
+
+

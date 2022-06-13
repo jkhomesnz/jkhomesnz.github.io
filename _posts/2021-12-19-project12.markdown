@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Saltlife Beach Lodge"
+date:   2022-01-12 09:41:36 +1300
+categories: projects
+thumbnail: /assets/media/project/manly/cover-image-01.jpg
+tag: Renovation & Remodelling
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <img class="project__hero-media" src="/assets/media/project/manly/cover-image-01.jpg" alt="The Salt Life">
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title"><small>Manly</small> Salt Life Lodge</h1>
+    <p class="project__meta"><a href="#" class="project__tag">Renovation & Remodelling</a> <span class="project__year">2021</span></p>
+  </div>
+
+  <div class="project__desc">
+    <p class="lead">A breezy contemporary beach house with a coastal-cool edge.</p>
+    <p>Located in the seaside town of Auckland, the beautifully constructed house is a seamless mesh of contemporary design and beach lifestyle.
+</p>
+    <p>Quality timber floors, modern kitchen bench, natural light and generous open plan living will naturally drive you to plan many more nights at home.</p>
+  </div>
+
+</div>
+
+
+<br>
+
+<video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
+  <source src="/assets/media/project/manly/JK-manly-video-banner.mp4" type="video/mp4">
+</video>
+
+

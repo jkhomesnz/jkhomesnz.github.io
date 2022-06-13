@@ -60,7 +60,7 @@ a:active {
 
 .site-title {
   display: block;
-  background: url("/assets/jk-logo.svg") center center no-repeat;
+  background: url("/assets/brand/jk-logo.svg") center center no-repeat;
   background-size: cover;
   text-indent: -99999px;
   width: 65px;
@@ -83,18 +83,32 @@ a:active {
 }
 .site-nav .page-link:hover  {
   color: #fff;
-  border-bottom: 2px solid;
   text-decoration: none;
+  border: 0;
 }
 .site-nav .page-link:active {
   color: #ddd;
   text-decoration: none;
 }
 
+.site-nav a {
+  position: relative;
+}
+
 .site-nav a[data-active-item="active"] {
-  border-bottom: 2px solid;
   pointer-events: none;
 }
+.site-nav .page-link:hover::after,
+.site-nav a[data-active-item="active"]::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+}
+
 
 
 /* Mobile menu */
@@ -106,6 +120,9 @@ a:active {
   }
   .site-nav .menu-icon svg {
     fill: #fff;
+    width: 30px;
+    height: 30px;
+    margin-top: 16px;
   }
   .site-nav input:checked ~ .trigger {
     display: block;
@@ -114,10 +131,19 @@ a:active {
     background: #2b2b2b;
     z-index: 9999;
   }
+  .site-nav .page-link:hover::after,
+  .site-nav a[data-active-item="active"]::after {
+    bottom: 0;
+  }
 }
 
 
-
+@media screen and (max-width: 800px) {
+  .wrapper {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
 
 
 .post-title {
@@ -200,7 +226,7 @@ a:active {
   display: block;
   width: 100%;
   height: 100%;
-  background: url("bg__contact2.jpg") no-repeat center center;
+  background: url("/assets/images/bg__contact2.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
@@ -344,7 +370,11 @@ a:active {
   .project__title  {
     font-size: 32px;
   }
-
+  .section__hero-banner {
+    height: 650px !important;
+    overflow: hidden;
+    margin-top: -30px;
+  }
 }
 
 
@@ -403,7 +433,7 @@ a:active {
 
 
 .section__hero-banner {
-  height: 650px !important;
+  height: 420px;
   overflow: hidden;
   margin-top: -30px;
 }
@@ -426,8 +456,9 @@ a:active {
 
 /* Partners */
 .section__partners {
-  border-top: 1px solid #555;
-  padding: 20px 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: 20px 0 40px;
+  background: #252525;
 }
 
 .section__partners .wrapper {
@@ -519,56 +550,7 @@ a:active {
 
 
 
-.section-services {
-  width: 100%;
-  float: left;
-  margin: 0 auto 60px;
-}
 
-.section-services ul,
-.section-services ol {
-  margin-left: 16px;
-}
-
-.services__categories {
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-  margin: 60px auto;
-}
-
-.services__category {
-  margin: 60px 0;
-  box-sizing: border-box;
-}
-
-.services__category img {
-  margin-bottom: 16px;
-}
-
-@media screen and (min-width: 1024px) {
-  .services__categories {
-    display: grid;
-    column-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .services__category {
-    // width: 33.33%;
-    // float: left;
-    // margin-right: 30px;
-  }
-  .services__category:last-child {
-    // margin-right: 0;
-  }
-}
-
-
-
-.projects h1 {
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0px 0 60px;
-  font-weight: 600;
-}
 
 .post-list > li {
   margin-bottom: 60px;
@@ -616,12 +598,13 @@ HOME
   padding: 15px;
   box-sizing: border-box;
   letter-spacing: 0.15em;
+  text-align: center;
 }
 
 .homepage .post-list {
   margin: 20px auto 60px;
   max-width: 1000px !important;
-  padding: 15px;
+  padding: 24px;
   box-sizing: border-box;
 }
 .homepage .post-list li {
@@ -633,6 +616,9 @@ HOME
 .homepage .post-list__thumbnail {
   max-width: 40%;
   // float: left;
+}
+.homepage .post-list__thumbnail img {
+  object-fit: cover;
 }
 .homepage .post-list__textbox {
   max-width: 60%;
@@ -653,6 +639,7 @@ HOME
   }
   .homepage .post-list {
     max-width: 1250px;
+    padding: 15px;
   }
   .homepage .post-list__textbox {
     max-width: 50%;
@@ -663,25 +650,16 @@ HOME
     font-weight: 600;
   }
 
-  .homepage .post-list__button {
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    padding: 5px 15px;
-    background-color: #fda328;
-    box-sizing: border-box;
-    border-radius: 20px;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-top: 30px;
+  .homepage .post-list-heading {
+    text-align: left;
   }
 }
+
 @media screen and (min-width: 1900px) {
   .homepage .post-list {
     max-width: 1450px;
   }
 }
-
 
 
 .homepage .section__hero-banner {
@@ -741,7 +719,7 @@ HOME
   content:"";
   width: 350px;
   height: 750px;
-  background: url("/assets/jk-logo_symbol.svg") center left no-repeat;
+  background: url("/assets/brand/jk-logo_symbol.svg") center left no-repeat;
   background-size: cover;
   position: absolute;
   top: 400px;
@@ -752,7 +730,7 @@ HOME
   content:"";
   width: 590px;
   height: 750px;
-  background: url("/assets/jk-logo_symbol.svg") center right no-repeat;
+  background: url("/assets/brand/jk-logo_symbol.svg") center right no-repeat;
   background-size: cover;
   position: absolute;
   bottom: 0px;
@@ -766,3 +744,48 @@ HOME
 }
 
 
+
+/* Button */
+.post-list__button {
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  padding: 2px 8px;
+  background-color: #fda328;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+}
+.post-list__button:hover,
+.post-list__button:visited {
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  .post-list__button {
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+}
+
+
+
+.post-footer .pagination {
+  list-style: none;
+  margin: 100px 0 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.related {
+  display: none;
+}
+
+
+
+.project-media {
+  width: 100%;
+}

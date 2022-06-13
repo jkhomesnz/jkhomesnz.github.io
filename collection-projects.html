@@ -1,0 +1,41 @@
+---
+layout: default
+title: Projects Collection
+collection_name: projects
+---
+
+
+<ul class="post-list">
+    {%- for post in site.projects_collection -%}
+
+    <li class="post-list__item">
+      <!-- Post thumbnail -->
+      {%- if post.thumbnail -%}
+      <figure class="post-list__thumbnail">
+        <img src="{{- post.thumbnail | relative_url -}}" alt="{{ post.title | escape }}" class="post-list__image">
+      {%- endif -%}
+      </figure>
+
+      <div class="post-list__textbox">
+        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        <h3 class="post-list__title">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+
+        {%- if post.tag -%}
+        <p class="post-list__tag">{{ post.tag }}</p>
+        {%- endif -%}
+
+        <a class="post-list__button" href="{{ post.url | relative_url }}">
+          View project
+        </a>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ul>

@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Catalina Hobsonville point"
+date:   2020-1-8 00:00:00 +1300
+categories: projects
+thumbnail: /assets/media/project/jk__sample3.jpg
+tag: Cladding
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <img class="project__hero-media" src="/assets/media/project/jk__sample3.jpg" alt="Catalina Hobsonville point">
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title">Catalina Hobsonville Point</h1>
+    <p class="project__meta"><a href="#" class="project__tag">Cladding</a> <span class="project__year"></span></p>
+  </div>
+
+  <div class="project__desc">
+    <p>Stria Cladding</p>
+  </div>
+
+</div>
+
+<br>
+
+<!-- <div class="media-wrapper">
+  <video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
+    <source src="/assets/media/project/" type="video/mp4">
+  </video>
+</div> -->

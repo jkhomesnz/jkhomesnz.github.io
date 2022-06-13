@@ -27,18 +27,36 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 facebook_username:
-instagram_username: jkhomesnz_goldenljd
+instagram_username: jkhomesnz
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - octopress-autoprefixer
+
+
+
+# permalink:     post/:categories/:year/:month/:title/   #Post URL
+# paginate_path: "/post/page:num/"
+permalink:     projects/:title/   #Post URL
+paginate_path: "/projects/page:num/"
+paginate:      50
+
 
 header_pages:
-  - company.markdown
-  - services.markdown
-  - projects.markdown
-  - contact.markdown
+  - page-company.html
+  - page-services.html
+  - projects/index.html
+  # - collection-projects.html
+  - page-contact.html
+
+
+collections:
+  projects_collection:
+    output: true
+
 
 
 # Exclude from processing.

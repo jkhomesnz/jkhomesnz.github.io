@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Botany Downs"
+date:   2020-1-10 00:00:00 +1300
+categories: projects
+thumbnail: /assets/media/project/jk__sample3.jpg
+tag: 골조 외장, 인사이드 피니시
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <img class="project__hero-media" src="/assets/media/project/jk__sample3.jpg" alt="Botany Downs">
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title">Botany Downs</h1>
+    <p class="project__meta"><a href="#" class="project__tag">골조 외장, 인사이드 피니시</a> <span class="project__year"></span></p>
+  </div>
+
+  <div class="project__desc">
+    <p>골조 외장, 인사이드 피니시</p>
+  </div>
+
+</div>
+
+<br>
+
+<!-- <div class="media-wrapper">
+  <video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
+    <source src="/assets/media/project/" type="video/mp4">
+  </video>
+</div> -->
+

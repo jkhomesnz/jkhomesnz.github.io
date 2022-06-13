@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Abercrombie St. Howick"
+date:   2020-1-11 00:00:00 +1300
+categories: projects
+thumbnail: /assets/media/project/abercrombie/Abercrombie St.jpg
+tag: New build & Development
+---
+
+<div class="project__wrapper clearfix">
+
+  <div class="project__hero">
+    <img class="project__hero-media" src="/assets/media/project/abercrombie/Abercrombie St.jpg" alt="Abercrombie St. Howick">
+  </div>
+
+  <div class="project__heading">
+    <h1 class="project__title"><small>Howick</small>Abercrombie St.</h1>
+    <p class="project__meta"><a href="#" class="project__tag">New build & Development</a> <span class="project__year"></span></p>
+  </div>
+
+  <div class="project__desc">
+    <p>New build & Development</p>
+  </div>
+
+</div>
+
+<br>
+
+<div class="media-wrapper">
+  <video class="project-media" autoplay loop muted playsinline id="projectVideo1" poster="">
+    <source src="/assets/media/project/abercrombie/Abercrombie St. Howick (MMN) Video 1.mp4" type="video/mp4">
+  </video>
+  <video class="project-media" autoplay loop muted playsinline id="projectVideo2" poster="">
+    <source src="/assets/media/project/abercrombie/Abercrombie St. Howick (MMN) Video 2.mp4" type="video/mp4">
+  </video>
+</div>
