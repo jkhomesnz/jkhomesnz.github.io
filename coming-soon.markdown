@@ -12,7 +12,7 @@ permalink:
 
   <div class="contact__textbox">
   IN CASE YOU WANT TO CONTACT US :
-    EMAIL: <a href="mailto:projects@jkhomesnz.com">projects@jkhomesnz.com</a><br>
+    EMAIL: <a href="mailto:projects@jkcons.co.nz">projects@jkcons.co.nz</a><br>
   </div>
 </div>
 
@@ -22,7 +22,7 @@ permalink:
   <h2 class="contact__subtitle">CAREERS</h2>
 
   <div class="contact__textbox">
-    EMAIL: <a href="mailto:jkdr@jkhomesnz.com">jkdr@jkhomesnz.com</a> <br>
+    EMAIL: <a href="mailto:jkdr@jkcons.co.nz">jkdr@jkcons.co.nz</a> <br>
     PHONE: <a href="tel:021-363-555">021 363 555</a>
   </div>
 </div>

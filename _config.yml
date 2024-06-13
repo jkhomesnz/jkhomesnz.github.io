@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: J&K Homes
-email: projects@jkhomesnz.com
+title: J&K Constructions
+email: projects@jkcons.co.nz
 description: Call Us 021 363 555
 
 baseurl: "" # the subpath of your site, e.g. /blog
